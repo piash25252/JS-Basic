@@ -33,3 +33,22 @@
 
 // let z = x+y;
 // console.log(z)
+
+// function first()
+// {
+//   const data_four = ["test",13,"batch",20];
+//   console.log(data_four[3]);
+// }
+// first()
+
+function loop()
+{
+  const data_four = ["apple",13,"piash",20];
+  let i =0;
+  while(i<data_four.length)
+  {
+    console.log(data_four[i]);
+    i++
+  }
+}
+loop()

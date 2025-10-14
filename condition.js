@@ -1,7 +1,7 @@
 
-function condition()
+function condition(data)
 {
-    const data = 20;
+    // const data = 20;
     if(data == 0)
     {
         console.log(data+ " is a even number");
@@ -21,4 +21,4 @@ function condition()
     }
         
 }
-condition()
+condition(2,0)
