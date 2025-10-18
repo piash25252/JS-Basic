@@ -1,1 +1,15 @@
-565656565
+// store a function in the displayPI variable
+// this is a function expression
+let displayPI = function() {
+    console.log("PI = 3.14");
+}
+
+// call the greet() function
+greet();
+
+// call the reply() function
+displayPI();
+
+// Output:
+// Hello World!
+// PI = 3.14
