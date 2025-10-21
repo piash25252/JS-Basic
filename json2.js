@@ -21,10 +21,25 @@ const students = [
     },
 ];
 
-function grouping(students){
-    for(let i=0; i<students.length; i++){
-        console.log(students[i].grade);
+function grouping(student){
+    // for(let i=0; i<students.length; i++){
+    //     console.log(students[i].grade);
+
+    const groupData = Object.groupBy(student,(item) => item.grade)
+    console.log(groupData);
     }
 
-}
+
 grouping(students);
+
+
+
+
+
+// const myArray = [1,2,3];
+
+// function show(arr) {
+//     console.log(arr);
+// }
+
+// show(myArray);
