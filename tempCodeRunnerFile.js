@@ -1,10 +1,8 @@
+const num1 = 5;
+const num2 = 3;
 
-const data = [10,11,20,9,4,5,10,2,5,4,80,5,0,40,1];
+// add two numbers
+const sum = num1 + num2;
 
-function filter(inputData){
-    const result = inputData.filter((Number) =>Number > 15)
-    console.log(result);
-
-}
-
-filter(data);
+// display the sum
+console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
